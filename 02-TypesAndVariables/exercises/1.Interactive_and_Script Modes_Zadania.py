@@ -1,44 +1,44 @@
 # Interactive Mode and Script Mode========================================================================================================================================================================================================
-Interactive Mode:
+#Interactive Mode:
 
->>> 7+4
-11
+#>>> 7+4
+#11
 
->>> (30+10) / 2
-20.0
+#>>> (30+10) / 2
+#20.0
 
->>> 2 ** 3
-8
+#>>> 2 ** 3
+#8
 
->>> 7 > 5
-True
+#>>> 7 > 5
+#True
 
->>> r = 4
->>> area = 3.14159 * r * r
->>> area
-50.26544
->>> round(area,2)                          #Zaokrąglanie liczby do 2 miejsc po przecinku z użyciem funkcji round()
-50.27
+#>>> r = 4
+#>>> area = 3.14159 * r * r
+#>>> area
+#50.26544
+#>>> round(area,2)                          #Zaokrąglanie liczby do 2 miejsc po przecinku z użyciem funkcji round()
+#50.27
 
->>> first_name = "Mary"
->>> last_name = "Brown"
->>> full_name = first_name + ' ' + last_name            #Łączenie dwóch stringów w jeden z użyciem operatora + i dodanie spacji między nimi
->>> full_name
-'Mary Brown'
->>> print(full_name)
-Mary Brown
->>> len(full_name)                  #Obliczanie długości stringa z użyciem funkcji len()
-10
+#>>> first_name = "Mary"
+#>>> last_name = "Brown"
+#>>> full_name = first_name + ' ' + last_name            #Łączenie dwóch stringów w jeden z użyciem operatora + i dodanie spacji między nimi
+#>>> full_name
+#'Mary Brown'
+#>>> print(full_name)
+#Mary Brown
+#>>> len(full_name)                  #Obliczanie długości stringa z użyciem funkcji len()
+#10
 
->>> a = 5
->>> h = 4
->>> triangle_area = (a * h) / 2     #Obliczanie pola trójkąta wzorem (a * h) / 2
->>> print(triangle_area)
-10.0
+#>>> a = 5
+#>>> h = 4
+#>>> triangle_area = (a * h) / 2     #Obliczanie pola trójkąta wzorem (a * h) / 2
+#>>> print(triangle_area)
+#10.0
 
->>> mean = (7 + 12 + 31) / 3              #Obliczanie średniej arytmetycznej trzech liczb wzorem (a + b + c) / 3
->>> print(round(mean, 2))                   #Zaokrąglanie wyniku do 2 miejsc po przecinku
-16.67
+#>>> mean = (7 + 12 + 31) / 3              #Obliczanie średniej arytmetycznej trzech liczb wzorem (a + b + c) / 3
+#>>> print(round(mean, 2))                   #Zaokrąglanie wyniku do 2 miejsc po przecinku
+#16.67
 
 # Script Mode========================================================================================================================================================================================================
 
@@ -46,9 +46,9 @@ Mary Brown
 # Hello = "Hello World!"
 # print(Hello)
 
-PS C:\Users\raczk\Documents> py program_script_mode.py
-Hello World!
-PS C:\Users\raczk\Documents>
+#PS C:\Users\raczk\Documents> py program_script_mode.py
+#Hello World!
+#PS C:\Users\raczk\Documents>
 
 # BMI Calculator========================================================================================================================================================================================================
 
